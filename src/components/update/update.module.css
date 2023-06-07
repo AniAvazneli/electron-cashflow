@@ -1,0 +1,17 @@
+.modalslot :global .update-progress {
+  display: flex;
+}
+.modalslot :global .progress-title {
+  margin-right: 10px;
+}
+.modalslot :global .progress-bar {
+  width: 0;
+  flex-grow: 1;
+}
+.modalslot :global .can-available .new-version-target, .modalslot :global .can-available .update-progress {
+  margin-left: 40px;
+}
+.modalslot :global .can-not-available {
+  padding: 20px;
+  text-align: center;
+}/*# sourceMappingURL=update.module.css.map */
